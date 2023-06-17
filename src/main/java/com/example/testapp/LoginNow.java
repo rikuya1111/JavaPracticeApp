@@ -41,7 +41,7 @@ public class LoginNow {
         try {
             /*
              * fxmlファイル(SecondScreen.fxml)の読み込み
-             * */
+             */
             FXMLLoader loader = new FXMLLoader(getClass().getResource("HomePage.fxml"));
             Parent root = loader.load();
             Scene secondScene = new Scene(root);

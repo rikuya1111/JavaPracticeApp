@@ -14,7 +14,6 @@ import java.util.HashMap;
 * Applicationクラスを継承
 */
 public class MainApp extends Application {
-
     /*
     * グローバル関数の配列を作成
     * 使用用途 : ログイン情報の管理に使用
