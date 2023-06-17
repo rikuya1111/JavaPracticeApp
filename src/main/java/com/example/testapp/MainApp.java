@@ -8,8 +8,6 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.util.HashMap;
 
-
-
 /*
 * Applicationクラスを継承
 */
@@ -19,15 +17,12 @@ public class MainApp extends Application {
     * 使用用途 : ログイン情報の管理に使用
     * */
     public static HashMap<String, Object> Info = new HashMap<>();
-
     /*
     * start()メソッドがApplicationクラスの抽象メソッドであるstart(Stage primaryStage)をオーバーライドしているため、@Overrideアノテーションを使用している。
     * 最初に読み込むページ（FirstScreen.fxml）を設定し、そのページを表示するためのシーンを作成し、primaryStageに設定している。
     */
     @Override
     public void start(Stage primaryStage) {
-
-
         try {
 //          最初に読み込むページの設定
             FXMLLoader loader = new FXMLLoader(getClass().getResource("HomePage.fxml"));
